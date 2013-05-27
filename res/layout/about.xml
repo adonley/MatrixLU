@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textColor="#C0C0C0"
+		android:textSize="18dp"
+		android:textStyle="italic"
+		android:text="Developers:"
+	/>	
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textColor="#FFFFFF"
+		android:textSize="18dp"
+		android:text="\t\tAndrew Donley\n\n\t\tChris Lunoe"
+	/>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textColor="#C0C0C0"
+		android:textSize="18dp"
+		android:textStyle="italic"
+		android:text="Suggestions:"
+	/>	
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textColor="#FFFFFF"
+		android:textSize="18dp"
+		android:text="\t\tadonley@ucsd.edu\n"
+	/>	
+	<TextView
+      android:id="@+id/picture"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:gravity="left"
+      android:textSize="18dp"
+      android:textStyle="italic"
+      android:text="\tAll the effects of nature are only mathematical results of a small number of immutable laws. \n\t -Pierre-Simon Laplace"
+	/>
+	
+</LinearLayout>

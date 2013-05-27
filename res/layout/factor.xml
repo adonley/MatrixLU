@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:screenOrientation="portrait">
+    <TextView
+           android:id="@+id/whichForm"
+           android:layout_width="fill_parent" 
+           android:layout_height="wrap_content"
+		   android:textSize="18px"
+		   android:textStyle="italic"
+           android:text="Select which form to factor in:"
+           android:gravity="left"
+           />
+	<RadioGroup
+	  android:id="@+id/radioGroup"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_below="@id/whichForm">
+      <RadioButton android:id="@+id/LUFact"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="LU" />
+      <RadioButton android:id="@+id/PLUFact"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="PLU (Beta)" />
+    </RadioGroup>
+    <CheckBox 
+      android:id="@+id/solveQ"
+ 	  android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/radioGroup"
+      android:gravity="center" 
+      android:text="Solve System? (P)LU x = b" />
+    
+    <TextView
+      android:id="@+id/more"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/solveQ"
+      android:text="\nMore to be added later."
+      android:gravity="center"
+	/>
+</RelativeLayout>

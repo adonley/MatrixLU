@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+  <!--      <TextView  
+           android:id="@+id/matrixMsg"
+           android:layout_width="fill_parent" 
+           android:layout_height="wrap_content"         
+           android:text="Enter Matrix"
+           android:gravity="left"
+           /> -->
+       <Button 
+           android:id="@+id/btnCalc"  
+           android:layout_width="80px"
+           android:layout_height="200px"
+           android:text="Calculate LU"
+           android:layout_alignParentRight="true"
+           />
+       <EditText 
+           android:id="@+id/matrix"  
+           android:layout_width="fill_parent" 
+           android:layout_height="200px"
+           android:layout_toLeftOf="@id/btnCalc"
+           android:gravity="top" 
+           android:hint="Enter a Matrix Here"
+           android:inputType="none"
+           android:digits="0123456789,\n -"
+           />       
+        <TextView
+           android:id="@+id/inst"
+           android:layout_width="fill_parent" 
+           android:layout_height="wrap_content"
+           android:layout_below="@id/btnCalc"
+		   android:textSize="14px"
+		   android:textStyle="italic"
+           android:text="Instructions:"
+           android:gravity="left"
+           />
+        <TextView
+           android:id="@+id/matrixUsg"
+           android:layout_width="fill_parent" 
+           android:layout_height="wrap_content"
+           android:layout_below="@id/inst"
+		   android:textSize="14px"
+           android:text="@string/instss"
+           android:gravity="left"
+           />
+
+</RelativeLayout>

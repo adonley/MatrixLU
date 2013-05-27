@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LU Factor</string>
+    <string name="instss">\tUse commas to separate the elements. Use newlines to designate the next row. This program only works with integer elements as input right now, but it does compute double precision decompositions (Remember this program is still in beta. Please report bugs). Lastly hit menu -&gt; settings to change from LU to PLU, or to solve. Enjoy.</string>
+</resources>
